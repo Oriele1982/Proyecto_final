@@ -1,4 +1,4 @@
-body{
+*{
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
@@ -6,21 +6,48 @@ body{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
-/* INDEX */
-.header_index{
+/* NAVBAR*/
+nav.navbar{
 	width: 100%;
-	background-color: red;
+	padding: 0;
 }
+	.container__color{
+		background: linear-gradient(to bottom, #522923, #FFFFFF);
+		padding: 5px;
+		margin: 0;
+	}
+	.menu_pages{
+		margin-right: 30px;
+	}
+		a.menu_item{
+			color: white;
+		}
+
+/* FOOTER */
+.footer_index{
+	background: linear-gradient(to bottom, #FFFFFF, #522923);
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	padding: 15px;
+}
+
+/* ROW */
+
+.row{
+	padding: 0;
+	margin: 0;
+}
+/* INDEX */
 
 .jumbotron_index{
 	width: 100%;
 	height: 700px;
 	background-image: url(../img/index_ok.png);
 	background-repeat: no-repeat;
-	box-sizing: border-box;	
+	box-sizing: border-box;
+	padding: 0;	
 }
-
 	.saludo{
 		width: 40%;
 		font-size: 50px;
@@ -31,7 +58,6 @@ body{
 		top: 200px;
 		left: 700px;
 	}
-
 	.btn-index{
 		width: 15%;
 		border-radius: 30px, 30px;
@@ -39,12 +65,10 @@ body{
 		background-color: #522923;
 		color:#FFFFFF;
 	}
-
 	.btn-index:hover{
 		background-color: #EB3A1D;
 		color: white;
 	}
-
 .footer_index{
 	background-color: #522923;
 	color: white;
@@ -53,43 +77,33 @@ body{
 	padding: 15px;
 }
 
-/* @media only screen and (max-width:){ */
-    
- /*   } */
-
-/* FIN INDEX */
-
 /* ABOUT ME */
 
 .jumbotron_about{
-	padding-top: 80px;
-	background-image: url(../img/fondo_about.png);
+	width: 100%;
 	height: 570px;
-	box-sizing: border-box;
+	padding: 80px 0 0 0 ;
+	background-image: url(../img/fondo_about.png);
 	background-repeat: no-repeat;
 	text-align: center;
-}	
-	
+}		
 	.foto_perfil{
 		width: 20%;
 		border-radius: 50%;
 		border: 5px solid #66C134,
 		padding-top: 30px;	
 	}
-
 	.name_about{
 		font-size: 50px;
 		font-weight: 700;
 		color: #AEEB1D;
 		text-shadow: 2px 2px 3px black; 
 	}
-
 	.study{
 		font-size: 20px;
 		font-weight: 600;
 		color: black;
 	}
-
 	.description{
 		width: 80%;
 		font-size: 30px;
@@ -97,111 +111,159 @@ body{
 		color: black;
 		margin-left: 110px;
 	}
-
 .about_me_data{
 	padding: 10px;
 	text-align: justify;
 }	
-	
 	.title_about{
 		margin-left: 120px;
 		color: #EB3A1D;
 	}
-
 	.history_about{
 		width: 90%;
 		font-size: 16px;
 		font-weight: 300;
 		margin-left: 30px;
 	}
-
 .hobbies_about{
 	color: #EB3A1D;
 	margin-left: 120px;
-
 }
-
-
 .social_about{
 	color: #EB3A1D;
 	margin-left: 120px;
+}
+.title_skills{
+	text-align: center;
+	color: #EB3A1D;
+	padding-bottom: 30px; 
 }	
-
-	.main_skills  {
-        		margin: 50px auto;
-        		width: 60%;
+.skill{
+	font-weight: 700;
+	text-align: center;
+	color: #66C134;
+}
+.main_skills  {
+margin: 50px 0 50px 50px;
+width: 70%;
+display: inline-block;
+}
+	.progressBar{
+		position: relative;
+		width: 100%;
+			height: 40px;
+		background: #eeeeee;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px #222;
+	}
+	.title{
+		position: absolute;
+		width: 100px;
+		height: 40px;
+		padding-left: 10px;        		
+		font-weight: bold;
+		color: #fff;
+		line-height: 2.5;
+		z-index: 10000;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		box-shadow: 2px 0 2px #333;
+		text-shadow: 1px 1px 1px #000;
+	}
+	.progress_value{
+		position: relative;
+		float: right;
+		padding-right: 10px;
+		line-height: 2.5;
+		font-weight: bold;
+		color: #455a64;
+		z-index: 10000;
+	}
+	.progress{
+		height: 40px;
+		position: absolute;
+		border-radius: 5px;
+		box-shadow: 2px 0 2px #555;
+	}
+        	.photoshopColor,.htmlColor, .wordColor{
+        		background: #EB3A1D;
         	}
-        	.progressBar{
-        		position: relative;
-        		width: 100%;
-        		height: 40px;
-        		background: #eeeeee;
-        		margin-bottom: 20px;
-        		border-radius: 5px;
-        		box-shadow: 0 1px 2px #222;
+        	.ilustratorColor, .cssColor, .powerpointColor{
+        		background: #522923;
         	}
-        	.title{
-        		position: absolute;
-        		width: 100px;
-        		height: 40px;
-        		padding-left: 10px;
-        		float: left;
-        		font-weight: bold;
-        		color: #fff;
-        		line-height: 2.5;
-        		z-index: 10000;
-        		border-top-left-radius: 5px;
-        		border-bottom-left-radius: 5px;
-        		box-shadow: 2px 0 2px #333;
-        		text-shadow: 1px 1px 1px #000;
+        	.indesignColor, .jsColor, .excelColor{
+        		background: #B80460;
         	}
-        	.progress_value{
-        		position: relative;
-        		float: right;
-        		padding-right: 10px;
-        		line-height: 2.5;
-        		font-weight: bold;
-        		color: #455a64;
-        		z-index: 10000;
-        	}
-        	.progress{
-        		height: 40px;
-        		position: absolute;
-        		border-radius: 5px;
-        		box-shadow: 2px 0 2px #555;
-        	}
-        	.htmlColor{
-        		background: #b71c1c;
-        	}
-        	.cssColor{
-        		background: #4a148c;
-        	}
-        	.jsColor{
-        		background: #1a237e;
+        	.jqueryColor{
+        		background: #66C134;
         	}
         	.phpColor{
-        		background: #1b5e20;
+        		background: #AEEB1D;
         	}
-        	.ajaxColor{
-        		background: #ff6f00;
+        	.photoshop, .html, .word{
+        		background: #FE3B20;
         	}
-        	.html{
-        		background: #ec407a;
+        	.ilustrator, .css, .powerpoint{
+        		background: #DB6D5E;
         	}
-        	.css{
-        		background: #ab47bc;
+        	.indesign, .js, .excel{
+        		background: #FC0598;
         	}
-        	.js{
-        		background: #5c6bc0;
+        	.jquery{
+        		background: #73C937;
         	}
         	.php{
-        		background: #66bb6a;
+        		background: #C7FF12;
         	}
-        	.ajax{
-        		background: #ffca28;
-        	}
+        	
         	@media (max-width: 720px) {
         		.main{
-        			width: 90%;
+        			width: 80%;
         		}
         	}
+
+/* EDUCATION */
+
+.header__education{
+	height: 200px;
+	background: url(../img/fondo_total.png);
+	opacity: 0.7;
+	padding: 0;
+}
+	.jumbotron_education{
+		padding-top: 90px;
+	}
+		.title_education{
+			text-align: center;
+			font-size: 50px;
+			color: #FFFFFF;
+			text-shadow: 2px 2px 3px black;
+	}		
+.education_content{
+	background-color: #EB3A1D;
+}
+	.back_col{
+		background-color: #FFFFFF;
+		text-align: justify;
+		height: 300px;
+	}
+		.sub-title{
+			margin-left: 150px;
+			font-size: 30px;
+		}
+	.personal_data_study{
+		list-style: none;
+		margin: 30px 0 0 40px;
+	}	
+		.years{
+			padding-bottom: 20px; 
+		}
+	.personal_data_site{
+		margin: 85px 30px 0 0;
+		list-style: none;
+		
+	}
+		.site{
+			
+		}
