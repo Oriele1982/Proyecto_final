@@ -20,9 +20,11 @@ nav.navbar{
 		margin-right: 30px;
 	}
 		a.menu_item{
-			color: white;
+			font-weight: 700;
+			font-size: 18px;
+			text-decoration: none;
 		}
-
+		
 /* FOOTER */
 .footer_index{
 	background: linear-gradient(to bottom, #FFFFFF, #522923);
@@ -49,19 +51,20 @@ nav.navbar{
 	padding: 0;	
 }
 	.saludo{
-		width: 40%;
+		width: 50%;
 		font-size: 50px;
 		font-weight: 700;
 		text-align: center;
 		color: white;
-		position: absolute;
+		text-shadow: 2px 2px 3px black;
+		position: relative;
 		top: 200px;
-		left: 700px;
+		left: 600px;
 	}
 	.btn-index{
 		width: 15%;
 		border-radius: 30px, 30px;
-		margin: 400px 0 0 770px;
+		margin: 280px 0 0 800px;
 		background-color: #522923;
 		color:#FFFFFF;
 	}
@@ -69,13 +72,6 @@ nav.navbar{
 		background-color: #EB3A1D;
 		color: white;
 	}
-.footer_index{
-	background-color: #522923;
-	color: white;
-	font-weight: 300;
-	text-align: center;
-	padding: 15px;
-}
 
 /* ABOUT ME */
 
@@ -267,3 +263,60 @@ display: inline-block;
 		.site{
 			
 		}
+
+/* PORTFOLIO */
+
+/* BLOG */
+
+.header__blog{
+	background-color: #B80460;
+	height: 200px;
+	padding: 50px;
+}
+	.my_blog{
+		margin-top: 50px;
+	}
+		.title_blog{
+			color: #000000;
+			font-size: 40px;
+			font-weight: 300;
+		}
+		.sub-title_blog{
+			color: #000000;
+			font-size: 18px;
+			font-weight: 800;
+		}
+.first_input {
+	background-color: #000000;
+}
+	.input_col{
+		margin-top: 50px;
+		margin-left: 300px;
+	}
+		.meet_one{
+			width: 50%;
+			margin-left: 150px;
+			border-radius: 30px;
+			border: 4px solid #B80460;
+		}
+		.title_input{
+			width: 50%;
+			text-align: center;
+			font-weight: 300;
+			color: #FFFFFF;
+			margin-left: 150px;
+			padding-top: 10px; 
+
+		}
+		.reference{
+			width: 60%;
+			font-size: 14px;
+			font-weight: 400;
+			text-align: justify;
+			color: #fff;
+			margin-left: 120px;
+			padding: 20px 0;
+		}
+.second_input{
+	background-color: tomato;
+}
