@@ -123,8 +123,32 @@ nav.navbar{
 	}
 .hobbies_about{
 	color: #EB3A1D;
-	margin-left: 120px;
+	margin-left: 150px;
 }
+	.list_hobbies{
+		margin: 0 20px 0 95px;
+		font-size: 45px;
+
+	}
+	.list_one, .list_two{
+		margin-left: 15px;
+	}
+	.list_three{
+		margin-left: 10px;
+		padding-left: 15px;
+	}
+	.list_one{
+		color: #AEEB1D;
+	}
+	.list_two{
+		color: #B80460;
+	}
+	.list_three{
+		color: #66C134;
+	}
+		.fas{
+			padding: 5px;
+		}
 .social_about{
 	color: #EB3A1D;
 	margin-left: 120px;
@@ -236,33 +260,41 @@ display: inline-block;
 			color: #FFFFFF;
 			text-shadow: 2px 2px 3px black;
 	}		
-.education_content{
+.curriculum{
 	background-color: #EB3A1D;
-}
+}	
+	.sub-title{
+			text-align: center;
+			font-size: 30px;
+			color: white;
+			padding-bottom: 20px;
+		}
 	.back_col{
 		background-color: #FFFFFF;
 		text-align: justify;
-		height: 300px;
+		height: 260px;
+		margin-bottom: 50px;
+
 	}
-		.sub-title{
-			margin-left: 150px;
-			font-size: 30px;
-		}
 	.personal_data_study{
 		list-style: none;
 		margin: 30px 0 0 40px;
 	}	
 		.years{
-			padding-bottom: 20px; 
+			padding-bottom: 25px;
+			font-weight: 600; 
 		}
 	.personal_data_site{
-		margin: 85px 30px 0 0;
+		margin-top: 30px;
 		list-style: none;
 		
 	}
 		.site{
-			
+			padding-bottom: 20px;
 		}
+			.weight{
+				font-weight: 600;
+			}
 
 /* PORTFOLIO */
 
@@ -318,9 +350,33 @@ display: inline-block;
 			padding: 20px 0;
 		}
 .map_google{
-	background-color: tomato;
+	background-color: grey;
 	padding: 50px 0;
 	height: 300px; 
+}
+	.lugar{
+		font-size: 20px;
+		font-weight: 500;
+		color: #66C134;
+		text-align: center;
+
+	}	
+	.dirección{
+		font-size: 24px;
+		font-weight: 500;
+		color: #FFFFFF;
+		text-align: center;
+	}
+.api_col{
+	width: 40%;
+	height: 40%;
+	margin-left: 50px;
+}	
+#map{
+	width: 40%;
+	height: 40%;
+	background-color: white;
+	margin-left: 40px;
 }		
 .mini_input{
 	background-color: #000000;
@@ -332,7 +388,27 @@ display: inline-block;
 		border: 4px solid #B80460;
 	}
 
-.post_col{
-	display: inline-block;
-	
+.short_title{
+	font-size: 16px;
+	font-weight: 500;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px;
 }
+.short_reference{
+	color: #FFFFFF;
+}
+	.link_blog{
+		color: #66C134;
+	}
+.meses{
+	list-style: none;
+	color: #EB3A1D;
+	margin-left:120px;
+}
+	.month{
+		font-size: 16px;
+		padding: 5px;
+	}
+
+/* CONTACT */
