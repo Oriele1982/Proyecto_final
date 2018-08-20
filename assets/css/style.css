@@ -297,7 +297,16 @@ display: inline-block;
 			}
 
 /* PORTFOLIO */
-
+	
+.portfolio__main{
+	padding: 50px;
+	background-color: #66C134;
+	opacity: 0.7;
+}
+	.portfolio_carousel{
+		display: block;
+		margin-left: 100px;
+	}
 /* BLOG */
 
 .header__blog{
