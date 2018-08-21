@@ -243,7 +243,7 @@ display: inline-block;
         		}
         	}
 
-/* EDUCATION */
+/* CURRICULUM */
 
 .header__education{
 	height: 200px;
@@ -299,17 +299,41 @@ display: inline-block;
 /* PORTFOLIO */
 	
 .portfolio__main{
+	height: 600px;
 	padding: 80px;
 	background-color: #66C134;
 }
 	.portfolio_carousel{
 		width: 80%;
+		height: 500px;
 		display: block;
 		margin-left: 100px;
 	}
-		.port_image{
-			margin-left: 150px;
+		.carousel_height{
+			height: 430px;
 		}
+		.carousel-indicators{
+			margin-bottom: -10px;
+		}
+		.port_image{
+			margin: 40px 0 0 150px;
+		}
+		.carousel-caption{
+			background: linear-gradient(to top, #FFFFFF, #AEEB1D);;
+			opacity: 0.8;
+			margin-bottom: -20px;
+		}
+			.title_image{
+				font-size: 45px;
+				font-weight: 600;
+				margin-bottom: 10px;
+			}
+			.description_image{
+				font-size: 16px;
+				font-weight: 500;
+				margin-bottom: -20px;
+				color: black;
+			}
 /* BLOG */
 
 .header__blog{
@@ -424,3 +448,38 @@ display: inline-block;
 	}
 
 /* CONTACT */
+
+.contact_me{
+	background-color: #522923;
+	height: 600px;
+}
+	.alert{
+		text-align: center;
+	}
+		.message{
+			font-weight: 500;
+			color: #FFFFFF;
+		}
+.my_form{
+	width: 100%;
+	height: 380px;
+	background-color: #9E7973;
+	padding: 50px;
+	margin-top: 90px;
+}
+	.form-inline{
+		margin-left: 80px;
+	}
+		.text_form{
+			margin-left: 10px;
+		}
+		.form-control{
+			margin-left: 5px;
+		}
+	.form-text{
+		width: 80%;
+		margin: 30px 0 0 90px;
+	}
+		.message_form{
+			padding-bottom: 5px;
+		}
