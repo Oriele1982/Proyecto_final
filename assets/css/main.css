@@ -13,12 +13,18 @@ nav.navbar{
 }
 	.container__color{
 		background: linear-gradient(to bottom, #522923, #FFFFFF);
-		padding: 5px;
+		padding: 15px;
 		margin: 0;
 	}
 	.menu_pages{
 		margin-right: 30px;
 	}
+		.navbar-brand{
+			font-size: 50px;
+			font-weight: 300;
+			color: black;
+			margin-left: 60px;
+		}
 		a.menu_item{
 			font-weight: 700;
 			font-size: 18px;
