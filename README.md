@@ -21,6 +21,11 @@ El proyecto final de portafolio consiste en 5 secciones distribuidas de acuerdo 
 
 Archivo html: https://github.com/Oriele1982/Proyecto_final
 
-Archivo php: 
+Archivo php: https://github.com/Oriele1982/Proyecto_final_php
 
 ### Enlace wordpress:
+
+Nombre usuario: bastet1982
+Contraseña: portafolio_oriele_2018
+
+#### PD: El proyecto está dividido en 2 repositorios, uno representa la estructura html, CSS y Jquery del proyecto, y el otro representa todo el archivo de wordpress y PHP
