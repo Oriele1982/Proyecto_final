@@ -11,16 +11,6 @@ $(document).ready(function(){
         	$('.powerpoint').animate({width:'90%'},2000);
         	$('.excel').animate({width:'40%'},2000);
     
-    var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -33.448, lng: -70.6692655},
-          zoom: 7
-        });
-      }
-    	
-
-
 });
 
         
