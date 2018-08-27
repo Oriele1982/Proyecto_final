@@ -53,8 +53,8 @@ nav.navbar{
 	height: 700px;
 	background-image: url(../img/index_ok.png);
 	background-repeat: no-repeat;
-	box-sizing: border-box;
-	padding: 0;	
+	padding: 0;
+	display: inline-block;	
 }
 	.saludo{
 		width: 50%;
@@ -413,7 +413,7 @@ display: inline-block;
 	width: 55%;
 	height: 220px;
 	margin-left: 10px;
-	background-color: red;
+	
 }	
 #map{
 	width: 100%;
