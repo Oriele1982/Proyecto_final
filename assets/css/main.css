@@ -365,98 +365,87 @@ display: inline-block;
 			font-size: 18px;
 			font-weight: 800;
 		}
-.first_input {
-	background-color: #000000;
-}
-	.input_col{
-		margin: 50px 0 0 300px;
-	}
-		.meet_one{
-			width: 40%;
-			margin-left: 200px;
-			border-radius: 30px;
-			border: 4px solid #B80460;
-		}
-		.title_input{
-			width: 50%;
-			text-align: center;
-			font-weight: 300;
-			font-size: 20px;
-			color: #FFFFFF;
-			margin-left: 150px;
-			padding-top: 10px; 
-
-		}
-		.reference{
-			width: 60%;
-			font-size: 14px;
-			font-weight: 400;
-			text-align: justify;
-			color: #fff;
-			margin-left: 120px;
-			padding: 20px 0;
-		}
-.map_google{
-	background-color: black;
-	padding: 50px 0;
-	height: 300px; 
-}
-	.lugar{
+.first_input{
+	width: 100%;
+	padding: 30px;
+}	
+	.meet_one{
+		width: 50%;
+		margin-left: 200px;
+	}	
+	.title_input{
 		font-size: 20px;
 		font-weight: 500;
-		color: #66C134;
 		text-align: center;
-
-	}	
-	.dirección{
-		font-size: 24px;
-		font-weight: 500;
-		color: #FFFFFF;
-		text-align: center;
+		padding: 15px;
 	}
-.api_col{
-	width: 55%;
-	height: 220px;
-	margin-left: 10px;
-	
-}	
-#map{
-	width: 100%;
-	height: 200px;
-	margin-top: 10px;
-}		
-.mini_input{
-	background-color: #000000;
-	padding: 50px 0;
-}
-	.meet_two{
-		width: 80%;
-		border-radius: 40px;
-		border: 4px solid #B80460;
-	}
-
-.short_title{
-	font-size: 16px;
-	font-weight: 500;
-	color: #FFFFFF;
-	text-align: center;
-	padding: 10px;
-}
-.short_reference{
-	color: #FFFFFF;
-}
-	.link_blog{
-		color: #66C134;
-	}
-.meses{
-	list-style: none;
-	color: #EB3A1D;
-	margin-left:120px;
-}
-	.month{
+	.reference{
 		font-size: 16px;
-		padding: 5px;
+		text-align: justify;
 	}
+.map_col{
+	background-color: #B80460;
+	padding: 50px;
+	height: 400px;
+}	
+	.lugar{
+		width: 50%;
+		display: inline-block;
+		font-size: 20px;
+		font-weight: 600;
+		color: #FFFFFF;
+		margin-top: 100px;
+	}
+	.direccion{
+		width: 50%;
+		display: inline-block;
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+
+	#map{
+		width: 50%;
+		height: 300px;
+		float: right;
+		display: inline-block;
+		clear: both;
+		margin: -180px 0 0 400px;
+	}
+
+.meet_two{
+	width: 80%;
+	padding: 20px;
+	margin-top: 15px;
+	display: inline-block;
+}	
+	.short_title{
+		font-size: 16px;
+		padding: 15px;
+	}
+	.short_reference{
+		padding-left: 15px;
+	}
+		.link_blog{
+			color: #AEEB1D;
+			font-weight: 500;
+		}
+
+.recientes_title{
+	font-size: 16px;
+	color: #B80460;
+	padding: 10px;
+	text-align:left;
+	margin-right: 80px;
+}		
+.months{
+	margin: -720px 0 0 -70px;
+}		
+	.meses{
+		list-style-type: none;
+	}
+		.month{
+			padding: 15px;
+		}
 
 /* CONTACT */
 

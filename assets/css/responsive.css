@@ -158,6 +158,8 @@
 			.description_image{
 				display: none;
 			}
+
+	/* BLOG */
 }   
  
 @media (min-width: 992px) and (max-width: 1200px){  /* Desktops (≥992px) MD */
