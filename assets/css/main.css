@@ -159,6 +159,11 @@ nav.navbar{
 	color: #EB3A1D;
 	margin-left: 120px;
 }
+	/*a.pinterest{
+		width: 100%;
+		height: 10%;
+		padding: 15px;
+	}*/
 .title_skills{
 	text-align: center;
 	color: #EB3A1D;
@@ -275,7 +280,7 @@ display: inline-block;
 			color: white;
 			padding-bottom: 20px;
 		}
-	.back_col{
+	.back_col_1, .back_col_2{
 		background-color: #FFFFFF;
 		text-align: justify;
 		height: 260px;

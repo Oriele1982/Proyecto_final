@@ -20,8 +20,7 @@
 		width: 50%;
 		margin: 300px 0 0 80px;
 	}
-	
-}
+
 	/* ABOUT */
 
 	.foto_perfil{
@@ -45,8 +44,22 @@
 	.title_skills{
 		margin-left: 20px;
 	}
-}	
 
+	/* CURRICULUM */
+	
+	.back_col_1{
+		display: none;
+	}
+	.personal_data_site{
+		margin-top: 30px;
+		list-style: none;
+		background-color: #FFFFFF;
+		padding: 10px;
+		
+	}
+
+}
+	
 @media (min-width: 601px) and (max-width: 991px){  /* Tablets  SM */
 	
 	/* INDEX */
@@ -87,10 +100,23 @@
 		display: none;
 	}
 	.title_about{
-		margin-left: 350px;
+		padding-left: 350px;
 	}
 	.title_skills{
 		margin-left: 20px;
+	}
+
+	/* CURRICULUM */
+	
+	.back_col_1{
+		display: none;
+	}
+	.personal_data_site{
+		margin-top: 30px;
+		list-style: none;
+		background-color: #FFFFFF;
+		padding: 10px;
+		
 	}
 }   
  
@@ -102,7 +128,7 @@
 	width: 100%!important;
 	background-image: url(../img/index_ok.png);
 	background-repeat: no-repeat;	
-}
+	}
 	.saludo{
 		width: 50%;
 		font-size: 45px;
@@ -133,6 +159,12 @@
 		display: inline-block;
 		margin-right: 100px;
 	}
+
+	/* CURRICULUM */
+	
+	.back_col_1{
+		background-color: #FFFFFF;
+	}
 }   
 
 @media (min-width: 1200px) {
@@ -147,5 +179,11 @@
 	.description{
 		display: inline-block;
 		margin-right: 100px;
+	}
+
+	/* CURRICULUM */
+	
+	.back_col_1{
+		display: #FFFFFF;
 	}
 }
