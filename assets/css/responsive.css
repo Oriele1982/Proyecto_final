@@ -78,6 +78,34 @@
 				display: none;
 			}
 
+	/* BLOG */
+
+	/* CONTACT */
+
+	.contact_me{
+		height: 700px;
+	}
+		.alert{
+			text-align: center;
+		}
+	.my_form{
+		height: 450px;
+	}
+		.form-inline{
+			margin-left: 5px;
+		}
+			
+		.form-text{
+			width: 98%;
+			margin: 30px 0 0 7px;
+		}
+			.message_form{
+				margin-left: 5px;
+			}
+	button{
+		float: right;
+		margin: 30px 5px 0 0;	
+	}	
 }
 	
 @media (min-width: 601px) and (max-width: 991px){  /* Tablets  SM */
@@ -160,6 +188,33 @@
 			}
 
 	/* BLOG */
+
+	/* CONTACT */
+
+	.contact_me{
+		height: 750px;
+	}
+		.alert{
+			text-align: center;
+		}
+	.my_form{
+		height: 450px;
+	}
+		.form-inline{
+			margin-left: 5px;
+		}
+			
+		.form-text{
+			width: 98%;
+			margin: 30px 0 0 7px;
+		}
+			.message_form{
+				margin-left: 5px;
+			}
+	button{
+		float: right;
+		margin: 30px 5px 0 0;	
+	}	
 }   
  
 @media (min-width: 992px) and (max-width: 1200px){  /* Desktops (≥992px) MD */
@@ -216,7 +271,41 @@
 		.port_image{
 			margin: 50px 0 0 50px;			
 		}
+
+	/* BLOG */
+	/* CONTACT */
+
+	.contact_me{
+		height: 700px;
+	}
+		.alert{
+			text-align: center;
+		}
+	.my_form{
+		height: 400px;
+	}
+		.form-inline{
+			margin: 10px 5px 0 0;
+		}
+		.form-control{
+			padding: 5px;
+		}
+		.form-text{
+			width: 98%;
+			margin: 30px 0 0 7px;
+		}
+			.message_form{
+				margin-left: 5px;
+			}
+	button{
+		float: right;
+		margin: 30px 5px 0 0;	
+	}		
 }   
+
+	
+
+
 
 @media (min-width: 1200px) {
 
