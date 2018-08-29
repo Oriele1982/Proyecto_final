@@ -79,6 +79,42 @@
 			}
 
 	/* BLOG */
+	
+		.meet_one{
+			width: 70%;
+			margin-left: 70px;
+		}	
+		
+		.lugar{
+			margin-top: 50px;
+		}
+		#map{
+			margin: -250px 0 0 400px;
+		}
+
+	.meet_two{
+		width: 60%;
+	}	
+		.short_title{
+			font-size: 16px;
+			padding: 15px;
+			margin-left:5px;
+		}
+		.short_reference{
+			padding-left: 15px;
+		}
+			.link_blog{
+				color: #AEEB1D;
+				font-size: 16px;
+				font-weight: 700;
+			}
+
+	.recientes_title{
+		display: none;
+	}		
+	.months{
+		display: none;
+	}		
 
 	/* CONTACT */
 
@@ -188,6 +224,43 @@
 			}
 
 	/* BLOG */
+	
+		.meet_one{
+			width: 50%;
+			margin-left: 200px;
+		}	
+		
+		.lugar{
+			margin-top: 100px;
+		}
+		#map{
+			margin: -200px 0 0 400px;
+		}
+
+	.meet_two{
+		width: 50%;
+	}	
+		.short_title{
+			font-size: 16px;
+			padding: 15px;
+			margin-left: 5px;
+		}
+		.short_reference{
+			padding-left: 15px;
+		}
+			.link_blog{
+				color: #AEEB1D;
+				font-size: 16px;
+				font-weight: 700;
+			}
+
+	.recientes_title{
+		display: none;
+	}		
+	.months{
+		display: none;
+	}		
+
 
 	/* CONTACT */
 
