@@ -28,4 +28,24 @@ Archivo php: https://github.com/Oriele1982/Proyecto_final_php
 Nombre usuario: bastet1982
 Contraseña: portafolio_oriele_2018
 
+### Enlaces base datos:
+
+Nombre base datos:
+
+ feg7orie_portafolio_proyecto
+
+Nombre usuario:
+
+ feg7orie_scarlet
+
+Contraseña:
+
+ noviembre29-11-1982
+
+### Enlaces wordpress base datos:
+
+Oriele's Portafolio
+bastet1982
+portafolio_oriele_1982
+
 #### PD: El proyecto está dividido en 2 repositorios, uno representa la estructura html, CSS y Jquery del proyecto, y el otro representa todo el archivo de wordpress y PHP

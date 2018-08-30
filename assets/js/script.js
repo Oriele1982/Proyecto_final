@@ -1,5 +1,9 @@
 $(document).ready(function(){
-        	$('.photoshop').animate({width:'85%'},2000);
+        	
+        
+
+
+                $('.photoshop').animate({width:'85%'},2000);
         	$('.ilustrator').animate({width:'90%'},2000);
         	$('.indesign').animate({width:'65%'},2000);
         	$('.html').animate({width:'85%'},2000);

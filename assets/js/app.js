@@ -57,41 +57,7 @@ $(document).ready(function(){
           zoom: 10
         });
 
-         var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,         
-        });        
-		
-
-         var marker = new google.maps.Marker({
-          position: scl,
-          map: map,         
-        });        
-		
-		 var marker = new google.maps.Marker({
-          position: ccp,
-          map: map,         
-        }); 
-
-		 var marker = new google.maps.Marker({
-          position: ari,
-          map: map,         
-        }); 
-
-		  var marker = new google.maps.Marker({
-          position: vld,
-          map: map,         
-        }); 
-
-		   var marker = new google.maps.Marker({
-          position: idp,
-          map: map,         
-        }); 
-
-		    var marker = new google.maps.Marker({
-          position: lsr,
-          map: map,         
-        }); 
+        
 		
 
 	$("#select").on("change", function(){
